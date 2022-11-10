@@ -12,7 +12,7 @@ app.listen(HTTP_PORT, () => {
 // Root endpoint
 app.get("/", (req, res, next) => {
 	var hostname = os.hostname();
-    res.json({"hostname":hostname})
+    res.json({"Harsh hostname":hostname})
 });
 
 // Insert here other API endpoints
